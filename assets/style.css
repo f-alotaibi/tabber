@@ -1,0 +1,13 @@
+@import "tailwindcss";
+
+@theme {
+    --color-dark-background: black;
+    --color-light-background: white;
+    --color-dark-text: white;
+    --color-light-text: black;
+    --color-item-dark-background: #ffffff40;
+    --color-item-dark-background-hover: #ffffff59;
+    --color-item-light-background: #0000001a;
+    --color-item-light-background-hover: #00000040;
+    --font-poppins: 'Poppins', sans-serif;
+}

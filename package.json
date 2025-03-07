@@ -1,0 +1,16 @@
+{
+  "name": "tabber",
+  "version": "1.0.0",
+  "description": "",
+  "type": "module",
+  "scripts": {
+    "build": "vite build"
+  },
+  "author": "",
+  "dependencies": {
+    "@fontsource/poppins": "^5.2.5",
+    "@tailwindcss/vite": "^4.0.10",
+    "tailwindcss": "^4.0.10",
+    "vite": "^6.2.0"
+  }
+}

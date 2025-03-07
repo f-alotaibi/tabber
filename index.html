@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>New Tab</title>
+    <link href="assets/style.css" rel="stylesheet">
+    <link href="@fontsource/poppins/index.css" rel="stylesheet">
+    <script type="module" src="assets/app.js"></script>
+</head>
+
+<body class="bg-light-background text-light-text dark:bg-dark-background dark:text-dark-text flex h-screen">
+    <main class="m-auto pb-32 flex flex-col justify-center items-center gap-8">
+        <div class="flex flex-col items-center">
+            <p class="text-8xl font-poppins" id="clock"></p>
+            <p class="text-3xl font-poppins" id="date"></p>
+        </div>
+        <div id="top-sites" class="grid grid-cols-4 md:grid-cols-8 gap-4">
+            <a href="https://example.com" class="p-2 flex gap-2 flex-col items-center">
+                <div class="p-4 bg-item-light-background hover:bg-item-light-background-hover dark:bg-item-dark-background dark:hover:bg-item-dark-background-hover rounded-xl">
+                    <img class="w-[32px] h-[32px]" alt="Favicon for example.com"/>
+                </div>
+                <p class="font-bold text-xs font-poppins truncate max-w-[80px]">Example</p>
+            </a>
+        </div>
+    </main>
+</body>
+
+</html>
